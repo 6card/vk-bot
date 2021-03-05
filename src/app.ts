@@ -3,7 +3,7 @@ import { token } from './config';
 import express, { Request, Response } from 'express'
 import { Telegraf } from 'telegraf'
 
-//const token = process.env.BOT_TOKEN
+// const token = process.env.BOT_TOKEN
 if (token === undefined) {
   throw new Error('BOT_TOKEN must be provided!')
 }
