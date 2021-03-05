@@ -21,5 +21,5 @@ app.get('/', (req: Request, res: Response) => res.send('Hello World!'))
 // Set the bot API endpoint
 app.use(bot.webhookCallback('/vk'))
 app.listen(5001, () => {
-  console.log('Example app listening on port 3000!')
+  console.log('Example app listening on port 5001!')
 })
