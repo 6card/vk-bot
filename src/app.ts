@@ -17,9 +17,9 @@ bot.on('text', (ctx) => ctx.replyWithHTML('<b>Hello</b>'))
 bot.telegram.setWebhook('https://bot.6card.ru/vk')
 
 const app = express()
-app.get('/', (req: Request, res: Response) => res.send('Hello World!'))
+//app.get('/', (req: Request, res: Response) => res.send('Hello World!'))
 // Set the bot API endpoint
-app.use(bot.webhookCallback('/vk'))
+app.use(bot.webhookCallback('/'))
 app.listen(5001, () => {
   console.log('Example app listening on port 3000!')
 })
