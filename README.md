@@ -2,4 +2,4 @@
 
 ### Alpha version
 
-[Source](https://raw.githubusercontent.com/dmbaranov/evemovies-bot/)
+[Source](https://github.com/dmbaranov/evemovies-bot)
